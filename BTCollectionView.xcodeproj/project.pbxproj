@@ -7,14 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		545A443A1D88F93F008B11CB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A44391D88F93F008B11CB /* InfoViewController.swift */; };
+		545A443D1D89063C008B11CB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A443B1D89063C008B11CB /* CollectionViewCell.swift */; };
+		545A443E1D89063C008B11CB /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545A443C1D89063C008B11CB /* CollectionViewCell.xib */; };
+		545A446F1D89397B008B11CB /* Ferrari-458-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44401D89397B008B11CB /* Ferrari-458-1.jpg */; };
+		545A44701D89397B008B11CB /* Ferrari-458-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44411D89397B008B11CB /* Ferrari-458-2.jpg */; };
+		545A44711D89397B008B11CB /* Ferrari-458-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44421D89397B008B11CB /* Ferrari-458-3.jpg */; };
+		545A44721D89397B008B11CB /* Ferrari-458-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44431D89397B008B11CB /* Ferrari-458-4.jpg */; };
+		545A44731D89397B008B11CB /* Ferrari-458-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44441D89397B008B11CB /* Ferrari-458-5.jpg */; };
+		545A44741D89397B008B11CB /* Ferrari-458-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44451D89397B008B11CB /* Ferrari-458-6.jpg */; };
+		545A44751D89397B008B11CB /* Ferrari-458-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44461D89397B008B11CB /* Ferrari-458-7.jpg */; };
+		545A44761D89397B008B11CB /* LaFerrari-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44481D89397B008B11CB /* LaFerrari-1.jpg */; };
+		545A44771D89397B008B11CB /* LaFerrari-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44491D89397B008B11CB /* LaFerrari-2.jpg */; };
+		545A44781D89397B008B11CB /* LaFerrari-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A444A1D89397B008B11CB /* LaFerrari-3.jpg */; };
+		545A44791D89397B008B11CB /* LaFerrari-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A444B1D89397B008B11CB /* LaFerrari-4.jpg */; };
+		545A447A1D89397B008B11CB /* LaFerrari-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A444C1D89397B008B11CB /* LaFerrari-5.jpg */; };
+		545A447B1D89397B008B11CB /* LaFerrari-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A444D1D89397B008B11CB /* LaFerrari-6.jpg */; };
+		545A447C1D89397B008B11CB /* LaFerrari-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A444E1D89397B008B11CB /* LaFerrari-7.jpg */; };
+		545A447D1D89397B008B11CB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44501D89397B008B11CB /* 1.jpg */; };
+		545A447E1D89397B008B11CB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44511D89397B008B11CB /* 2.jpg */; };
+		545A447F1D89397B008B11CB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44521D89397B008B11CB /* 3.jpg */; };
+		545A44801D89397B008B11CB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44531D89397B008B11CB /* 4.jpg */; };
+		545A44811D89397B008B11CB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44541D89397B008B11CB /* 5.jpg */; };
+		545A44821D89397B008B11CB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44551D89397B008B11CB /* 6.jpg */; };
+		545A44831D89397B008B11CB /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44561D89397B008B11CB /* 7.jpg */; };
+		545A44841D89397B008B11CB /* Lamborghini-Aventador-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44581D89397B008B11CB /* Lamborghini-Aventador-1.jpg */; };
+		545A44851D89397B008B11CB /* Lamborghini-Aventador-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44591D89397B008B11CB /* Lamborghini-Aventador-2.jpg */; };
+		545A44861D89397B008B11CB /* Lamborghini-Aventador-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A445A1D89397B008B11CB /* Lamborghini-Aventador-3.jpg */; };
+		545A44871D89397B008B11CB /* Lamborghini-Aventador-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A445B1D89397B008B11CB /* Lamborghini-Aventador-4.jpg */; };
+		545A44881D89397B008B11CB /* Lamborghini-Aventador-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A445C1D89397B008B11CB /* Lamborghini-Aventador-5.jpg */; };
+		545A44891D89397B008B11CB /* Lamborghini-Aventador-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A445D1D89397B008B11CB /* Lamborghini-Aventador-6.jpg */; };
+		545A448A1D89397B008B11CB /* Lamborghini-Aventador-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A445E1D89397B008B11CB /* Lamborghini-Aventador-7.jpg */; };
+		545A448B1D89397B008B11CB /* Lamborghini-Veneno-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44601D89397B008B11CB /* Lamborghini-Veneno-1.jpg */; };
+		545A448C1D89397B008B11CB /* Lamborghini-Veneno-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44611D89397B008B11CB /* Lamborghini-Veneno-2.jpg */; };
+		545A448D1D89397B008B11CB /* Lamborghini-Veneno-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44621D89397B008B11CB /* Lamborghini-Veneno-3.jpg */; };
+		545A448E1D89397B008B11CB /* Lamborghini-Veneno-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44631D89397B008B11CB /* Lamborghini-Veneno-4.jpg */; };
+		545A448F1D89397B008B11CB /* Lamborghini-Veneno-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44641D89397B008B11CB /* Lamborghini-Veneno-5.jpg */; };
+		545A44901D89397B008B11CB /* Lamborghini-Veneno-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44651D89397B008B11CB /* Lamborghini-Veneno-6.jpg */; };
+		545A44911D89397B008B11CB /* Lamborghini-Veneno-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44661D89397B008B11CB /* Lamborghini-Veneno-7.jpg */; };
+		545A44921D89397B008B11CB /* McLaren-P1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44681D89397B008B11CB /* McLaren-P1-1.jpg */; };
+		545A44931D89397B008B11CB /* McLaren-P1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A44691D89397B008B11CB /* McLaren-P1-2.jpg */; };
+		545A44941D89397B008B11CB /* McLaren-P1-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A446A1D89397B008B11CB /* McLaren-P1-3.jpg */; };
+		545A44951D89397B008B11CB /* McLaren-P1-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A446B1D89397B008B11CB /* McLaren-P1-4.jpg */; };
+		545A44961D89397B008B11CB /* McLaren-P1-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A446C1D89397B008B11CB /* McLaren-P1-5.jpg */; };
+		545A44971D89397B008B11CB /* McLaren-P1-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 545A446D1D89397B008B11CB /* McLaren-P1-6.jpg */; };
+		545A44981D89397B008B11CB /* McLaren-P1-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 545A446E1D89397B008B11CB /* McLaren-P1-7.jpeg */; };
+		545A449A1D894CCA008B11CB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545A44991D894CCA008B11CB /* ListViewController.swift */; };
+		545A449D1D894F94008B11CB /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 545A449B1D894F94008B11CB /* back.png */; };
+		545A449E1D894F94008B11CB /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 545A449C1D894F94008B11CB /* forward.png */; };
 		54760F031D88361C005A5B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54760F021D88361C005A5B7E /* AppDelegate.swift */; };
 		54760F051D88361C005A5B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54760F041D88361C005A5B7E /* ViewController.swift */; };
 		54760F081D88361C005A5B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54760F061D88361C005A5B7E /* Main.storyboard */; };
 		54760F0A1D88361C005A5B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54760F091D88361C005A5B7E /* Assets.xcassets */; };
 		54760F0D1D88361C005A5B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54760F0B1D88361C005A5B7E /* LaunchScreen.storyboard */; };
+		54760FBB1D883EF3005A5B7E /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54760FBA1D883EF3005A5B7E /* items.plist */; };
+		54760FCB1D8841CC005A5B7E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54760FCA1D8841CC005A5B7E /* Car.swift */; };
+		54760FCE1D884265005A5B7E /* CellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54760FCD1D884265005A5B7E /* CellItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		545A44391D88F93F008B11CB /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		545A443B1D89063C008B11CB /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		545A443C1D89063C008B11CB /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		545A44401D89397B008B11CB /* Ferrari-458-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-1.jpg"; sourceTree = "<group>"; };
+		545A44411D89397B008B11CB /* Ferrari-458-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-2.jpg"; sourceTree = "<group>"; };
+		545A44421D89397B008B11CB /* Ferrari-458-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-3.jpg"; sourceTree = "<group>"; };
+		545A44431D89397B008B11CB /* Ferrari-458-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-4.jpg"; sourceTree = "<group>"; };
+		545A44441D89397B008B11CB /* Ferrari-458-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-5.jpg"; sourceTree = "<group>"; };
+		545A44451D89397B008B11CB /* Ferrari-458-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-6.jpg"; sourceTree = "<group>"; };
+		545A44461D89397B008B11CB /* Ferrari-458-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ferrari-458-7.jpg"; sourceTree = "<group>"; };
+		545A44481D89397B008B11CB /* LaFerrari-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-1.jpg"; sourceTree = "<group>"; };
+		545A44491D89397B008B11CB /* LaFerrari-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-2.jpg"; sourceTree = "<group>"; };
+		545A444A1D89397B008B11CB /* LaFerrari-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-3.jpg"; sourceTree = "<group>"; };
+		545A444B1D89397B008B11CB /* LaFerrari-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-4.jpg"; sourceTree = "<group>"; };
+		545A444C1D89397B008B11CB /* LaFerrari-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-5.jpg"; sourceTree = "<group>"; };
+		545A444D1D89397B008B11CB /* LaFerrari-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-6.jpg"; sourceTree = "<group>"; };
+		545A444E1D89397B008B11CB /* LaFerrari-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LaFerrari-7.jpg"; sourceTree = "<group>"; };
+		545A44501D89397B008B11CB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		545A44511D89397B008B11CB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		545A44521D89397B008B11CB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		545A44531D89397B008B11CB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		545A44541D89397B008B11CB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		545A44551D89397B008B11CB /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		545A44561D89397B008B11CB /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		545A44581D89397B008B11CB /* Lamborghini-Aventador-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-1.jpg"; sourceTree = "<group>"; };
+		545A44591D89397B008B11CB /* Lamborghini-Aventador-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-2.jpg"; sourceTree = "<group>"; };
+		545A445A1D89397B008B11CB /* Lamborghini-Aventador-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-3.jpg"; sourceTree = "<group>"; };
+		545A445B1D89397B008B11CB /* Lamborghini-Aventador-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-4.jpg"; sourceTree = "<group>"; };
+		545A445C1D89397B008B11CB /* Lamborghini-Aventador-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-5.jpg"; sourceTree = "<group>"; };
+		545A445D1D89397B008B11CB /* Lamborghini-Aventador-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-6.jpg"; sourceTree = "<group>"; };
+		545A445E1D89397B008B11CB /* Lamborghini-Aventador-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Aventador-7.jpg"; sourceTree = "<group>"; };
+		545A44601D89397B008B11CB /* Lamborghini-Veneno-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-1.jpg"; sourceTree = "<group>"; };
+		545A44611D89397B008B11CB /* Lamborghini-Veneno-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-2.jpg"; sourceTree = "<group>"; };
+		545A44621D89397B008B11CB /* Lamborghini-Veneno-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-3.jpg"; sourceTree = "<group>"; };
+		545A44631D89397B008B11CB /* Lamborghini-Veneno-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-4.jpg"; sourceTree = "<group>"; };
+		545A44641D89397B008B11CB /* Lamborghini-Veneno-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-5.jpg"; sourceTree = "<group>"; };
+		545A44651D89397B008B11CB /* Lamborghini-Veneno-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-6.jpg"; sourceTree = "<group>"; };
+		545A44661D89397B008B11CB /* Lamborghini-Veneno-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lamborghini-Veneno-7.jpg"; sourceTree = "<group>"; };
+		545A44681D89397B008B11CB /* McLaren-P1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-1.jpg"; sourceTree = "<group>"; };
+		545A44691D89397B008B11CB /* McLaren-P1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-2.jpg"; sourceTree = "<group>"; };
+		545A446A1D89397B008B11CB /* McLaren-P1-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-3.jpg"; sourceTree = "<group>"; };
+		545A446B1D89397B008B11CB /* McLaren-P1-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-4.jpg"; sourceTree = "<group>"; };
+		545A446C1D89397B008B11CB /* McLaren-P1-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-5.jpg"; sourceTree = "<group>"; };
+		545A446D1D89397B008B11CB /* McLaren-P1-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-6.jpg"; sourceTree = "<group>"; };
+		545A446E1D89397B008B11CB /* McLaren-P1-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "McLaren-P1-7.jpeg"; sourceTree = "<group>"; };
+		545A44991D894CCA008B11CB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		545A449B1D894F94008B11CB /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		545A449C1D894F94008B11CB /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
 		54760EFF1D88361C005A5B7E /* BTCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54760F021D88361C005A5B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54760F041D88361C005A5B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +121,9 @@
 		54760F091D88361C005A5B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54760F0C1D88361C005A5B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54760F0E1D88361C005A5B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54760FBA1D883EF3005A5B7E /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = items.plist; path = Cars/items.plist; sourceTree = "<group>"; };
+		54760FCA1D8841CC005A5B7E /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		54760FCD1D884265005A5B7E /* CellItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +137,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545A443F1D89397B008B11CB /* Car1 */ = {
+			isa = PBXGroup;
+			children = (
+				545A44401D89397B008B11CB /* Ferrari-458-1.jpg */,
+				545A44411D89397B008B11CB /* Ferrari-458-2.jpg */,
+				545A44421D89397B008B11CB /* Ferrari-458-3.jpg */,
+				545A44431D89397B008B11CB /* Ferrari-458-4.jpg */,
+				545A44441D89397B008B11CB /* Ferrari-458-5.jpg */,
+				545A44451D89397B008B11CB /* Ferrari-458-6.jpg */,
+				545A44461D89397B008B11CB /* Ferrari-458-7.jpg */,
+			);
+			path = Car1;
+			sourceTree = "<group>";
+		};
+		545A44471D89397B008B11CB /* Car2 */ = {
+			isa = PBXGroup;
+			children = (
+				545A44481D89397B008B11CB /* LaFerrari-1.jpg */,
+				545A44491D89397B008B11CB /* LaFerrari-2.jpg */,
+				545A444A1D89397B008B11CB /* LaFerrari-3.jpg */,
+				545A444B1D89397B008B11CB /* LaFerrari-4.jpg */,
+				545A444C1D89397B008B11CB /* LaFerrari-5.jpg */,
+				545A444D1D89397B008B11CB /* LaFerrari-6.jpg */,
+				545A444E1D89397B008B11CB /* LaFerrari-7.jpg */,
+			);
+			path = Car2;
+			sourceTree = "<group>";
+		};
+		545A444F1D89397B008B11CB /* Car3 */ = {
+			isa = PBXGroup;
+			children = (
+				545A44501D89397B008B11CB /* 1.jpg */,
+				545A44511D89397B008B11CB /* 2.jpg */,
+				545A44521D89397B008B11CB /* 3.jpg */,
+				545A44531D89397B008B11CB /* 4.jpg */,
+				545A44541D89397B008B11CB /* 5.jpg */,
+				545A44551D89397B008B11CB /* 6.jpg */,
+				545A44561D89397B008B11CB /* 7.jpg */,
+			);
+			path = Car3;
+			sourceTree = "<group>";
+		};
+		545A44571D89397B008B11CB /* Car4 */ = {
+			isa = PBXGroup;
+			children = (
+				545A44581D89397B008B11CB /* Lamborghini-Aventador-1.jpg */,
+				545A44591D89397B008B11CB /* Lamborghini-Aventador-2.jpg */,
+				545A445A1D89397B008B11CB /* Lamborghini-Aventador-3.jpg */,
+				545A445B1D89397B008B11CB /* Lamborghini-Aventador-4.jpg */,
+				545A445C1D89397B008B11CB /* Lamborghini-Aventador-5.jpg */,
+				545A445D1D89397B008B11CB /* Lamborghini-Aventador-6.jpg */,
+				545A445E1D89397B008B11CB /* Lamborghini-Aventador-7.jpg */,
+			);
+			path = Car4;
+			sourceTree = "<group>";
+		};
+		545A445F1D89397B008B11CB /* Car5 */ = {
+			isa = PBXGroup;
+			children = (
+				545A44601D89397B008B11CB /* Lamborghini-Veneno-1.jpg */,
+				545A44611D89397B008B11CB /* Lamborghini-Veneno-2.jpg */,
+				545A44621D89397B008B11CB /* Lamborghini-Veneno-3.jpg */,
+				545A44631D89397B008B11CB /* Lamborghini-Veneno-4.jpg */,
+				545A44641D89397B008B11CB /* Lamborghini-Veneno-5.jpg */,
+				545A44651D89397B008B11CB /* Lamborghini-Veneno-6.jpg */,
+				545A44661D89397B008B11CB /* Lamborghini-Veneno-7.jpg */,
+			);
+			path = Car5;
+			sourceTree = "<group>";
+		};
+		545A44671D89397B008B11CB /* Car6 */ = {
+			isa = PBXGroup;
+			children = (
+				545A44681D89397B008B11CB /* McLaren-P1-1.jpg */,
+				545A44691D89397B008B11CB /* McLaren-P1-2.jpg */,
+				545A446A1D89397B008B11CB /* McLaren-P1-3.jpg */,
+				545A446B1D89397B008B11CB /* McLaren-P1-4.jpg */,
+				545A446C1D89397B008B11CB /* McLaren-P1-5.jpg */,
+				545A446D1D89397B008B11CB /* McLaren-P1-6.jpg */,
+				545A446E1D89397B008B11CB /* McLaren-P1-7.jpeg */,
+			);
+			path = Car6;
+			sourceTree = "<group>";
+		};
 		54760EF61D88361C005A5B7E = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +240,53 @@
 		54760F011D88361C005A5B7E /* BTCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				54760FCC1D884228005A5B7E /* ViewController */,
+				54760F5A1D883A06005A5B7E /* Model */,
+				54760F141D883666005A5B7E /* Resource */,
 				54760F021D88361C005A5B7E /* AppDelegate.swift */,
-				54760F041D88361C005A5B7E /* ViewController.swift */,
 				54760F061D88361C005A5B7E /* Main.storyboard */,
 				54760F091D88361C005A5B7E /* Assets.xcassets */,
 				54760F0B1D88361C005A5B7E /* LaunchScreen.storyboard */,
 				54760F0E1D88361C005A5B7E /* Info.plist */,
 			);
 			path = BTCollectionView;
+			sourceTree = "<group>";
+		};
+		54760F141D883666005A5B7E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				545A449B1D894F94008B11CB /* back.png */,
+				545A449C1D894F94008B11CB /* forward.png */,
+				545A443F1D89397B008B11CB /* Car1 */,
+				545A44471D89397B008B11CB /* Car2 */,
+				545A444F1D89397B008B11CB /* Car3 */,
+				545A44571D89397B008B11CB /* Car4 */,
+				545A445F1D89397B008B11CB /* Car5 */,
+				545A44671D89397B008B11CB /* Car6 */,
+				54760FBA1D883EF3005A5B7E /* items.plist */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		54760F5A1D883A06005A5B7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54760FCA1D8841CC005A5B7E /* Car.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		54760FCC1D884228005A5B7E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				54760FCD1D884265005A5B7E /* CellItem.swift */,
+				54760F041D88361C005A5B7E /* ViewController.swift */,
+				545A44391D88F93F008B11CB /* InfoViewController.swift */,
+				545A443B1D89063C008B11CB /* CollectionViewCell.swift */,
+				545A443C1D89063C008B11CB /* CollectionViewCell.xib */,
+				545A44991D894CCA008B11CB /* ListViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +347,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545A44741D89397B008B11CB /* Ferrari-458-6.jpg in Resources */,
+				545A448A1D89397B008B11CB /* Lamborghini-Aventador-7.jpg in Resources */,
+				545A44861D89397B008B11CB /* Lamborghini-Aventador-3.jpg in Resources */,
 				54760F0D1D88361C005A5B7E /* LaunchScreen.storyboard in Resources */,
+				545A44931D89397B008B11CB /* McLaren-P1-2.jpg in Resources */,
+				545A44851D89397B008B11CB /* Lamborghini-Aventador-2.jpg in Resources */,
+				545A44711D89397B008B11CB /* Ferrari-458-3.jpg in Resources */,
 				54760F0A1D88361C005A5B7E /* Assets.xcassets in Resources */,
+				545A44821D89397B008B11CB /* 6.jpg in Resources */,
+				545A44701D89397B008B11CB /* Ferrari-458-2.jpg in Resources */,
+				545A447B1D89397B008B11CB /* LaFerrari-6.jpg in Resources */,
+				545A44901D89397B008B11CB /* Lamborghini-Veneno-6.jpg in Resources */,
+				545A44971D89397B008B11CB /* McLaren-P1-6.jpg in Resources */,
+				545A44771D89397B008B11CB /* LaFerrari-2.jpg in Resources */,
+				545A44891D89397B008B11CB /* Lamborghini-Aventador-6.jpg in Resources */,
+				545A447C1D89397B008B11CB /* LaFerrari-7.jpg in Resources */,
 				54760F081D88361C005A5B7E /* Main.storyboard in Resources */,
+				545A44961D89397B008B11CB /* McLaren-P1-5.jpg in Resources */,
+				545A44981D89397B008B11CB /* McLaren-P1-7.jpeg in Resources */,
+				545A44811D89397B008B11CB /* 5.jpg in Resources */,
+				545A447E1D89397B008B11CB /* 2.jpg in Resources */,
+				545A447D1D89397B008B11CB /* 1.jpg in Resources */,
+				545A44841D89397B008B11CB /* Lamborghini-Aventador-1.jpg in Resources */,
+				545A447F1D89397B008B11CB /* 3.jpg in Resources */,
+				545A448B1D89397B008B11CB /* Lamborghini-Veneno-1.jpg in Resources */,
+				545A44801D89397B008B11CB /* 4.jpg in Resources */,
+				545A44791D89397B008B11CB /* LaFerrari-4.jpg in Resources */,
+				545A446F1D89397B008B11CB /* Ferrari-458-1.jpg in Resources */,
+				545A44781D89397B008B11CB /* LaFerrari-3.jpg in Resources */,
+				545A44721D89397B008B11CB /* Ferrari-458-4.jpg in Resources */,
+				545A447A1D89397B008B11CB /* LaFerrari-5.jpg in Resources */,
+				545A44951D89397B008B11CB /* McLaren-P1-4.jpg in Resources */,
+				545A44881D89397B008B11CB /* Lamborghini-Aventador-5.jpg in Resources */,
+				545A44921D89397B008B11CB /* McLaren-P1-1.jpg in Resources */,
+				545A44731D89397B008B11CB /* Ferrari-458-5.jpg in Resources */,
+				545A449E1D894F94008B11CB /* forward.png in Resources */,
+				545A44761D89397B008B11CB /* LaFerrari-1.jpg in Resources */,
+				545A448F1D89397B008B11CB /* Lamborghini-Veneno-5.jpg in Resources */,
+				545A44911D89397B008B11CB /* Lamborghini-Veneno-7.jpg in Resources */,
+				545A44751D89397B008B11CB /* Ferrari-458-7.jpg in Resources */,
+				545A44831D89397B008B11CB /* 7.jpg in Resources */,
+				545A448D1D89397B008B11CB /* Lamborghini-Veneno-3.jpg in Resources */,
+				545A448E1D89397B008B11CB /* Lamborghini-Veneno-4.jpg in Resources */,
+				545A448C1D89397B008B11CB /* Lamborghini-Veneno-2.jpg in Resources */,
+				545A443E1D89063C008B11CB /* CollectionViewCell.xib in Resources */,
+				545A449D1D894F94008B11CB /* back.png in Resources */,
+				545A44871D89397B008B11CB /* Lamborghini-Aventador-4.jpg in Resources */,
+				54760FBB1D883EF3005A5B7E /* items.plist in Resources */,
+				545A44941D89397B008B11CB /* McLaren-P1-3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +407,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				54760F051D88361C005A5B7E /* ViewController.swift in Sources */,
+				54760FCE1D884265005A5B7E /* CellItem.swift in Sources */,
+				545A443D1D89063C008B11CB /* CollectionViewCell.swift in Sources */,
 				54760F031D88361C005A5B7E /* AppDelegate.swift in Sources */,
+				54760FCB1D8841CC005A5B7E /* Car.swift in Sources */,
+				545A443A1D88F93F008B11CB /* InfoViewController.swift in Sources */,
+				545A449A1D894CCA008B11CB /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +564,7 @@
 				54760F131D88361C005A5B7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

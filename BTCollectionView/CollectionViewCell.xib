@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="BTCollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5F2-h9-Vfm">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="120"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5F2-h9-Vfm" secondAttribute="trailing" id="HZ5-lO-oN9"/>
+                <constraint firstAttribute="bottom" secondItem="5F2-h9-Vfm" secondAttribute="bottom" id="YI6-4N-N19"/>
+                <constraint firstItem="5F2-h9-Vfm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="br4-ze-Nyl"/>
+                <constraint firstItem="5F2-h9-Vfm" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dfx-PO-BVX"/>
+            </constraints>
+            <connections>
+                <outlet property="imageCell" destination="5F2-h9-Vfm" id="ReS-cF-cRF"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
